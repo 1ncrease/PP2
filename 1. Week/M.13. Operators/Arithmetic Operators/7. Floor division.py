@@ -1,2 +1,2 @@
-x, y = int(input()), int(input())
-print(x > y)
+s = input()
+print(s.casefold())
