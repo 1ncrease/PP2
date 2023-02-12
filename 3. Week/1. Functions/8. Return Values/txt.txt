@@ -1,0 +1,1 @@
+To let a function return a value, use the return statement:
