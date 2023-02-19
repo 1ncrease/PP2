@@ -1,0 +1,1 @@
+As explained in the example above, the variable x is not available outside the function, but it is available for any function inside the function:
