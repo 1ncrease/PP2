@@ -1,12 +1,11 @@
-s = str(input())
-l=0
-u=0
+s = input()
+cntUP = 0
+cntDOWN = 0
 for i in range(len(s)):
-    if s[i].isupper():
-        u+=1
-    elif s[i].islower():
-        l+=1
-print("lower:")
-print(l)
-print("upper")
-print(u)
+    if (s[i] > 'A' and s[i] < 'Z'):
+        cntUP += 1
+    elif (s[i] > 'a' and s[i] < 'z'):
+        cntDOWN += 1
+
+print("Number of upper case - ", cntUP)
+print("Number of lower case - ", cntDOWN)
